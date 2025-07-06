@@ -27,7 +27,7 @@
 ---
 
 ## Structure
-![](a.png)
+![](screenshots/a.png)
 
 ---
 
