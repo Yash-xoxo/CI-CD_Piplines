@@ -24,11 +24,19 @@
         
 - Solution → **Automation using CI/CD tools**
 
+---
+
+## Structure
+![](a.png)
+
+---
+
 ### Putting it All Together (The CI/CD Loop)
 
-text
 
 `Idea → Write Code → Push to GitHub → Jenkins gets triggered →  Run tests → Build Docker Image → Deploy → Monitor → Repeat`
+
+---
 
 This is part of the **Software Development Life Cycle (SDLC)**:
 
@@ -42,6 +50,8 @@ This is part of the **Software Development Life Cycle (SDLC)**:
         
     - New versions are deployed
  
+---
+
 ### Automation Best Practice
 
 - **If you do it often** → Automate it.
@@ -50,6 +60,8 @@ This is part of the **Software Development Life Cycle (SDLC)**:
     
     - Example: Installing `pytest` once manually is fine.
  
+---
+
 ### What Is a Jenkins Trigger?
 
 - **Trigger**: An automated condition to run a Jenkins job **without manual click**.
@@ -69,6 +81,8 @@ This is part of the **Software Development Life Cycle (SDLC)**:
 You know the flow of:
 
 `GitHub → Jenkins → Test → Build → Deploy`
+
+---
 
 ### Final CI/CD Pipeline Summary
 
