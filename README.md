@@ -93,4 +93,4 @@ You know the flow of:
 
 ## Docker Build
 
-![](screenshot/b.png)
+![](screenshots/b.png)
