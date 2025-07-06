@@ -1,4 +1,4 @@
-from project.first import lw_sum, lw_mul
+from first import lw_sum, lw_mul
 
 def test_sum():
     assert lw_sum(2, 3) == 5
