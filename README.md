@@ -28,7 +28,7 @@
 
 text
 
-```Idea → Write Code → Push to GitHub → Jenkins gets triggered →  Run tests → Build Docker Image → Deploy → Monitor → Repeat```
+`Idea → Write Code → Push to GitHub → Jenkins gets triggered →  Run tests → Build Docker Image → Deploy → Monitor → Repeat`
 
 This is part of the **Software Development Life Cycle (SDLC)**:
 
@@ -69,3 +69,11 @@ This is part of the **Software Development Life Cycle (SDLC)**:
 You know the flow of:
 
 `GitHub → Jenkins → Test → Build → Deploy`
+
+### Final CI/CD Pipeline Summary
+
+#### Full Flow:
+
+
+`Developer writes code → Pushes to GitHub → Jenkins detects change (trigger) → Pulls code → Runs tests (pytest) → Builds Docker image → (Optional) Push to Docker Hub → Deploys container → Pipeline complete`
+
