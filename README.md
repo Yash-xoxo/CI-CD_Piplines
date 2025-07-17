@@ -87,8 +87,6 @@ You know the flow of:
 ### Final CI/CD Pipeline Summary
 
 
-
-
 `Developer writes code → Pushes to GitHub → Jenkins detects change (trigger) → Pulls code → Runs tests (pytest) → Builds Docker image → (Optional) Push to Docker Hub → Deploys container → Pipeline complete`
 
 ## Docker Build
