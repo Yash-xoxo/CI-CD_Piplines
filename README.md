@@ -92,3 +92,5 @@ You know the flow of:
 ## Docker Build
 
 ![](screenshots/b.png)
+
+An automation technique
